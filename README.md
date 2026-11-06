@@ -1,4 +1,4 @@
-# UD2 - JDBC PostgreSQL con Swing (PLANTILLA ALUMNADO)
+# UD2 - JDBC PostgreSQL con Swing
 
 Proyecto Java 21 + Maven para IntelliJ IDEA. Partimos del proyecto gráfico de clase y **dejamos pendiente la configuración JDBC y los ocho métodos CRUD de los DAO**.
 
