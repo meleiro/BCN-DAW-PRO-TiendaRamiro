@@ -6,14 +6,15 @@ import java.sql.SQLException;
 
 
 public final class ConexionBD {
-    private static final String URL = "";
-    private static final String USUARIO = "";
-    private static final String PASSWORD = "";
+    private static final String URL = "jdbc:postgresql://localhost:5432/tienda_ramiro3";
+    private static final String USUARIO = "tienda_ramiro_user";
+    private static final String PASSWORD = "tobi1234";
 
     private ConexionBD() { }
 
     public static Connection obtenerConexion() throws SQLException {
 
-        throw new SQLException("TODO: configurar e implementar ConexionBD.obtenerConexion()");
+        return DriverManager.getConnection(URL, USUARIO, PASSWORD);
+
     }
 }
